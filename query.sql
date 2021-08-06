@@ -15,6 +15,7 @@ SELECT PARC.DATADEVENCIMENTO,
 and parc.idparcela = 29462450
  ORDER BY PARC.DATADEVENCIMENTO DESC
  
+ SELECT * FROM Stm_ModeloDocumentoPortal modelo  WHERE modelo.tpModeloDocumento = 'ALVARA_EMPRESA'
  
  SELECT m.*, conf.* 
 		 FROM Stm_ConfiguracaoRedeSim conf
