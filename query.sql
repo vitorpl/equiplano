@@ -15,6 +15,8 @@ SELECT PARC.DATADEVENCIMENTO,
 and parc.idparcela = 29462450
  ORDER BY PARC.DATADEVENCIMENTO DESC
  
+ select * from pc_operador where login = '33737208000147'
+ 
  SELECT * FROM Stm_ModeloDocumentoPortal modelo  WHERE modelo.tpModeloDocumento = 'ALVARA_EMPRESA'
  
  SELECT m.*, conf.* 
